@@ -1,22 +1,23 @@
-ul {
+.navigation {
   list-style-type: none;
   margin: 2;
   padding: 6;
   overflow: hidden;
   border: 0px solid #e7e7e7;
-  background: rgba(2,2,2,0.2);
+  background: #7aad2d;
 }
 
-.logo1 img{position: absolute;
-margin-left: 60px;
-margin-top: 4px;
+.logo1 img {
+  position: absolute;
+  margin-left: 60px;
+  margin-top: 4px;
 }
 
-li {
+.navigation li {
   float: right;
 }
 
-li a {
+.navigation li a {
   display: inline-block;
   color: black;
   text-align: center;
@@ -24,17 +25,22 @@ li a {
   text-decoration: none;
 }
 
-ul a:hover{
+.navigation a:hover {
   background-color: #ddd;
 }
 
-body{
+body {
   margin: 0;
   padding: 0;
   background-color: white;
 }
-.container{
+.container {
   background: #aaa;
 }
-.table tr th { font-weight: normal; }
-.table td, .table th { border-top:none;}
+.table tr th {
+  font-weight: normal;
+}
+.table td,
+.table th {
+  border-top: none;
+}
