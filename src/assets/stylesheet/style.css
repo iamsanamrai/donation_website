@@ -16,6 +16,7 @@ body {
   background: #7aad2d;
   border: 0px solid #e7e7e7;
   display: flow-root;
+
 }
 .navigation {
   list-style-type: none;
@@ -100,7 +101,7 @@ body {
 }
 
 .footer {
-  position: fixed;
+  position: static;
   left: 0;
   width: 100%;
   bottom: 0;
