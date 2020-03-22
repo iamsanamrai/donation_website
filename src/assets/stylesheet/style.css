@@ -16,7 +16,6 @@ body {
   background: #7aad2d;
   border: 0px solid #e7e7e7;
   display: flow-root;
-
 }
 .navigation {
   list-style-type: none;
@@ -86,28 +85,41 @@ body {
 /* Style end */
 
 /*login box */
-.loginsec{
+.loginsec {
   padding: 27px 21px;
-    margin-bottom: 30px;
-    border-radius: 10px;
-    position: relative;
-    border: 2px solid black;
-    background-color: #ffffff;
-    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3), 0 10px 30px -5px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3), 0 10px 30px -5px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3), 0 10px 30px -5px rgba(0, 0, 0, 0.28);
-    width: 400px;
-    
+  margin-bottom: 30px;
+  border-radius: 10px;
+  position: relative;
+  border: 2px solid black;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3), 0 10px 30px -5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3), 0 10px 30px -5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3),
+    0 10px 30px -5px rgba(0, 0, 0, 0.28);
+  width: 400px;
 }
-
+.background-img {
+  width: 100%;
+  height: 521px;
+  background-image: url('../images/backgrond1.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.form-label {
+  font-weight: 500;
+}
+.heading-text {
+  font-size: 18px;
+  font-weight: 600;
+}
 .footer {
   position: static;
   left: 0;
   width: 100%;
   bottom: 0;
-  background-color: rgb(71,70,67);
+  background-color: rgb(71, 70, 67);
   text-align: center;
   color: white;
   padding: 5px;
-
 }
