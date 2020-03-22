@@ -56,6 +56,33 @@ body {
 .table th {
   border-top: none;
 }
+.hline {
+  height: 1px;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  margin: 8px 0px;
+}
+.mrow {
+  margin-right: 4px;
+  margin-left: 4px;
+}
+.chekbox-list {
+  list-style: none;
+  padding: 4px;
+  margin: 0px;
+  margin-left: 10px;
+  width: 100%;
+}
+.chekbox-list li {
+  line-height: 20px;
+}
+.chekbox-list .h-align {
+  line-height: 20px;
+  display: inline-block;
+  min-width: 110px;
+}
+
 /* Style for Panel desing */
 .panel {
   width: 100%;
@@ -71,8 +98,12 @@ body {
   border-bottom: 1px solid #aaa;
 }
 .panel-primary .panel-heading {
-  background-color: #5c96fa;
-  color: #2a2b2b;
+  background-color: #2758ad;
+  color: #ebf0f0;
+  padding-left: 10px;
+}
+.panel-primary .hd-height {
+  height: 35px;
 }
 .panel-default .panel-heading {
   background-color: #d9dadb;
@@ -81,6 +112,10 @@ body {
 .panel .panel-body {
   padding: 2px 4px;
   width: 100%;
+}
+.panelWidth {
+  width: 70%;
+  margin: auto;
 }
 /* Style end */
 
@@ -110,16 +145,63 @@ body {
   font-weight: 500;
 }
 .heading-text {
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 22px;
   font-weight: 600;
+  display: block;
+  text-align: left;
+  padding: 10px 2px;
+  width: 100%;
+}
+.join-button {
+  width: 150px;
+  border: 1px solid #aaa;
+  background: #7aad2d;
+  color: #ffffff;
+  border-radius: 2em;
+  padding: 10px;
+  line-height: 18px;
+  font-size: 18px;
 }
 .footer {
   position: static;
   left: 0;
   width: 100%;
   bottom: 0;
-  background-color: rgb(71, 70, 67);
+  background-color: #2a2b2b;
   text-align: center;
   color: white;
-  padding: 5px;
+  padding: 20px 15px 4px 15px;
+}
+.footer-title {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 1.4em;
+  display: block;
+  line-height: 20px;
+  padding: 10px 4px;
+}
+.ftextpg {
+  padding: 4px;
+  margin: 0px;
+  text-align: left;
+}
+.footer-navlist {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-align: left;
+  line-height: 20px;
+}
+.footer-navlist li {
+  padding: 4px;
+  line-height: 18px;
+}
+.footer-navlist li a {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer-navlist li a:hover {
+  text-decoration: underline;
 }
