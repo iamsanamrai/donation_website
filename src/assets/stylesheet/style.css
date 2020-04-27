@@ -8,18 +8,29 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: auto;
   padding: 0;
   background: rgb(184,255,76);
   background: linear-gradient(0deg, rgba(184,255,76,0.9419117988992471) 0%, rgba(122,173,45,1) 77%);
 }
+.zerropm{
+  padding: 0;
+  margin: 0;
+}
 .header-wrapper {
-  background: #7aad2d;
-  border: 0px solid #e7e7e7;
-  display: flow-root;
-
+  display: block;
+  width: 100%;
+  height: 89px;
+  background-color: #1ccf08;
+-webkit-box-shadow: -5px 45px 23px -51px rgba(82,72,82,1);
+-moz-box-shadow: -5px 45px 23px -51px rgba(82,72,82,1);
+box-shadow: -5px 45px 23px -51px rgba(82,72,82,1);
 }
 
+.bg-white{
+  background: #ffff; 
+  margin: auto;
+}
 .navigation {
   list-style-type: none;
   margin: 0px;
@@ -173,11 +184,12 @@ body {
   position: static;
   left: 0;
   width: 100%;
-  bottom: 0;
+  bottom: 0px;
   background-color: #2a2b2b;
   text-align: center;
   color: white;
   padding: 20px 15px 4px 15px;
+  margin-bottom: 0px;
 }
 .footer-title {
   text-transform: uppercase;
@@ -220,8 +232,6 @@ body {
   overflow-x: hidden;
 
 }
-
-
 .commques {
   margin: 20px;
   padding: 120px;
