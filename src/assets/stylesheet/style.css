@@ -10,7 +10,8 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: lightgreen;
+  background: rgb(184,255,76);
+  background: linear-gradient(0deg, rgba(184,255,76,0.9419117988992471) 0%, rgba(122,173,45,1) 77%);
 }
 .header-wrapper {
   background: #7aad2d;
@@ -123,6 +124,8 @@ body {
 
 /*login box */
 .loginsec {
+  margin: auto;
+  text-align: center;
   padding: 27px 21px;
   margin-bottom: 30px;
   border-radius: 10px;
