@@ -1,0 +1,31 @@
+twentybyetwently
+
+
+mkvirtualen flaskk --python=python3.6
+
+
+https://www.youtube.com/watch?v=uWoY3jcrQTo
+
+
+https://www.youtube.com/watch?v=6p7GBfHgJq8
+
+
+Open in console
+-------------------
+
+mkvirtualenv  myname --python=user/bin/python3.6
+
+
+joinus_table
+{
+ token_id
+ doner_key
+ first_name
+ last_name
+ email_address
+ password
+ contact_no
+ Address
+ licence_fee
+ donation_lavel
+}
