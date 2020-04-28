@@ -49,28 +49,26 @@
       <div class="loginsec">
         <h1>Login to Begin</h1>
         <hr>
-        <form>
+        <!-- <form  onsubmit="loginAction()"> -->
           <div class="form-group">
-            <label for="exampleInputEmail1"><b>Email address</b></label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <label for="inputEmail"><b>Email address</b></label>
+            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
           </div>
           <div class="form-group">
-            <label for="exampleInputPassword1"><b>Password</b></label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <label for="inputPassword"><b>Password</b></label>++++++++
+            <input type="password" class="form-control" id="inputPassword">
           </div>
-         
-          <button type="submit" class="btn btn-primary">Login</button>
+          <button type="button" class="btn btn-primary" onclick="loginAction()">Login</button>
           <br><br>
           <a href="#">Forgot Password?</a>
-        </form>  
+        <!-- </form>   -->
       </div>
       <br/>
       <br/>
     </div>
       <!--end-->
     </div>
-
        <!--Footer Portion -->
        <div class="footer">
         <div class="container-fluid">
@@ -113,5 +111,17 @@
         <p>Copyright @ 2020 - 20/20 Mass-Donation - All Right Reserved</p>
       </div>
       <!--End Footer Portion -->
+      <script>
+        function loginAction(){
+              var inputEmail = document.querySelector("#inputEmail").value;
+              var inputpwd = document.querySelector("#inputPassword").value;
+              if( inputEmail =="admin@gmail.com" && inputpwd == "password")
+              {
+                window.location.href="/insides/insides.html";
+              } else{
+                alert("Please Fill the email address / password !"); 
+              }
+      }
+      </script>
   </body>
 </html>
