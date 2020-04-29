@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>{{ title }}</title>
+    <link  href="{{url_for('static', filename='assets/bootstrap-4/css/bootstrap.min.css')}}"  rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{url_for('static', filename = 'assets/bootstrap-4/css/bootstrap-reboot.min.css')}}"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{url_for('static', filename = 'assets/bootstrap-4/css/bootstrap-grid.min.css')}}"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{url_for('static', filename = 'assets/stylesheet/style.css')}}"
+    />
+
+  </head>
+  </head>
+  <body>
+    <div class="container-fluid zerropm">
+      <div class="header-wrapper">
+        <div class="logo1">
+          <a href="/home"><img src="{{url_for('static', filename = 'assets/images/logo.png')}}"/></a>
+        </div>
+        <ul class="navigation">
+          <li style="font-size:20px"><a href="/ideas">Ideas</a></li>
+          <li style="font-size:20px"  class="active"><a href="/join-us">Join Us</a></li>
+          <li style="font-size:20px"><a href="/login">Login</a></li>
+          <li style="font-size:20px"><a href="/how-to-work">How It Works</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container-fluid zerropm">
+      <div class="background-img2"></div>
+    </div>
+    <div class="container-fluid zerropm bg-white">
+      <br/>
+      <br/>
+    
+      <!-- Join us page -->
+      <div class="panel panel-primary panelWidth">
+        <div class="panel-heading hd-height"> Join 20/20 Mass Donation Schema: Please Register here. </div>
+        <div class="panel-body">
+            <form style="width: 100%; margin: auto; padding: 10px;">
+              <h1 class="heading-text"> General Information</h1>
+              <div class="row mrow">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="token" class="form-label">Token:</label>
+                      <input type="text" class="form-control" id="token" aria-describedby="token" placeholder="Enter token">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="doner_key" class="form-label">Doner Key:</label>
+                    <input type="text" class="form-control" id="doner_key" aria-describedby="donerKey" placeholder="Enter doner key">
+                  </div>
+                </div>
+              </div>
+              <div class="row mrow">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="first_name" class="form-label">First Name:</label>
+                    <input type="text" class="form-control" id="first_name" placeholder="Enter first name"/>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="last_name" class="form-label">Last Name:</label>
+                    <input type="text" class="form-control" id="last_name" placeholder="Enter last name"/>
+                  </div>
+                </div>
+              </div>
+              <div class="row mrow">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="email_address" class="form-label" >Email:</label>
+                    <input type="email" class="form-control" id="email_address" placeholder="Enter email"/>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter pasword"/>
+                  </div>
+                </div>
+              </div>
+             <div class="row mrow">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="confirm_pwd" class="form-label">Confirm Password:</label>
+                    <input type="text" class="form-control" id="confirm_pwd" placeholder="Confirm password"/>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="address" class="form-label">Address </label>
+                    <input type="text" class="form-control" id="address" placeholder="Enter address"/>
+                  </div>
+                </div>
+              </div>
+               <div class="row mrow">
+                   <h1 class="heading-text"> Activity Information </h1>
+                   <strong>Licensing Fee:</strong>
+                    <ul class="chekbox-list">
+                      <li> <input type="checkbox"/><label> $ 150 Every 6 Months</label> </li>
+                      <li> <input type="checkbox"/><label> $ 250 Every 12 Months</label> </li>
+                    </ul>
+               </div>
+
+                <div class="row mrow">
+                   <strong>Donation Levels:</strong>
+                    <ul class="chekbox-list">
+                      <li class="h-align"> <input type="checkbox"/><label> $ 25 </label> </li>
+                      <li class="h-align"> <input type="checkbox"/><label> $ 50 </label> </li>
+                      <li class="h-align"> <input type="checkbox"/><label> $ 150 </label> </li>
+                      <li class="h-align"> <input type="checkbox"/><label> $ 250 </label> </li>
+                      <li class="h-align"> <input type="checkbox"/><label> $ 500 </label> </li>
+                      <li class="h-align"> <input type="checkbox"/><label> $ 1000 </label> </li>
+                    </ul>
+                  <p class="pg-text">
+                    Please note it is your absolute choice to donate at the level or levels you so desire in ascending order.
+                  </p>  
+               </div>
+               <div class="row mrow">
+                  <button class="join-button"> Join </button>
+               </div>
+             </form>
+         </div>
+      </div>
+      <br/>
+      <br/>
+      <!--end Section -->
+    </div>
+
+    <!--Footer Portion -->
+    <div class="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4">
+            <strong class="footer-title">About 20/20 Mass donation </strong>
+            <p class="ftextpg">
+              20/20 mass donation is the must successul mass funding system in
+              the world todays Register now and donate to person growth your
+              capital, mass donation team is always rewarding capital for all.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <strong class="footer-title"> QUICK LINKS </strong>
+            <div class="row mrow">
+              <ul class="footer-navlist col-md-6">
+                <li><a href="/how-to-work"> How to works ? </a></li>
+                <li><a href="/ideas">Ideas</a></li>
+                <li><a href="/join-us">Join us </a></li>
+                <li><a href="/login"> login </a></li>
+              </ul>
+              <ul class="footer-navlist col-md-6">
+                <li><a href="/common-question">Common Questions</a></li>
+                <li><a href="/guarantee-policy">Guarantee Policy</a></li>
+                <li><a href="/terms">Terms & Conditions</a></li>
+                <li><a href="/privacy">Privacy Policy</a></li>
+                <li><a href="/desclaimer">Disclaimer</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <strong class="footer-title"> SOCIAL MEDIAS </strong>
+            <p class="ftextpg">
+              Visit our social media pages and follow us for our future updates.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="hline"></div>
+      <p>Copyright @ 2020 - 20/20 Mass-Donation - All Right Reserved</p>
+    </div>
+    <!--End Footer Portion -->
+    
+  </body>
+</html>
