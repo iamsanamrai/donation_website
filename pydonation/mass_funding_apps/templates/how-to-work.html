@@ -37,10 +37,15 @@
           <li style="font-size:20px"><a href="/login">Login</a></li>
           <li style="font-size:20px"  class="active"><a href="/how-to-work">How It Works</a></li>
         </ul>
+        <div class="hambar" onclick="hambbar_handler()">
+          <svg class="bi bi-list" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 013 11h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 7h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 3h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5z" clip-rule="evenodd"/>
+          </svg>
+        </div>
       </div>
     </div>
 
-    <div class="container-fluid zerropm">
+    <div class="container-fluid content-place zerropm"> 
       <div class="background-img2"></div>
     </div>
 
@@ -86,6 +91,6 @@
       <p>Copyright @ 2020 - 20/20 Mass-Donation - All Right Reserved</p>
     </div>
     <!--End Footer Portion -->
-    
+    <script src="{{url_for('static', filename = 'assets/js/common.js')}}"></script>
   </body>
 </html>

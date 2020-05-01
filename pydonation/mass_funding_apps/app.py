@@ -32,6 +32,7 @@ def how_to_work():
 @app.route('/login/insides')
 def login_insides():
 	user_name = "admin@gmail.com"
+	userpwd = "password"
 	return render_template('/insides/insides.html', username=user_name ,title="20 by 20 Mass funding inside")
 
 @app.route('/logout')

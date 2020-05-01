@@ -32,13 +32,11 @@
 
   </head>
   <body>
-
     <div class="container-fluid zerropm">
       <div class="header-wrapper">
         <div class="logo1">
           <a href="/home"><img src="{{url_for('static', filename = 'assets/images/logo.png')}}"/></a>
         </div>
-        <div style="display:inline-block; padding: 15px;"> <h3> Welcome to login {{username}}  20/ 20 Mass funding</h3>  </div>
         <ul class="navigation">
           <li style="font-size:20px"><a href="/ideas">Ideas</a></li>
           <li style="font-size:20px"><a href="/join-us">Join Us</a></li>
@@ -47,6 +45,11 @@
           </li>
           <li style="font-size:20px"><a href="/how-to-work">How It Works</a></li>
         </ul>
+        <div class="hambar" onclick="hambbar_handler()">
+          <svg class="bi bi-list" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 013 11h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 7h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 3h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5z" clip-rule="evenodd"/>
+          </svg>
+        </div>
       </div>
     </div>
 
@@ -188,6 +191,8 @@
       <!--Inside Javascrip Laod-->
       <script src="{{url_for('static', filename = 'assets/menujs/mmenu.polyfills.js')}}"></script>
       <script src="{{url_for('static', filename = 'assets/menujs/mmenu.js')}}"></script>
+      <script src="{{url_for('static', filename = 'assets/js/common.js')}}"></script>
+
         <script>
             new Mmenu(document.querySelector('#menu'));
             document.addEventListener('click', function (evnt) {
